@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-image: url(header.jpg);
+    background-position: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+}
+.headerdeatails{
+    
+}
+.heading{
+
+}
+.headerminideatails{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footerb{
+    
+}
