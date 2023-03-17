@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-color:#e9ecef;
 }
 
 header{
@@ -17,11 +18,24 @@ header{
 nav{
     display: flex;
     gap: 40px;
+    font-weight: bolder;
+}
+.buttonsignup{
+    background-color: #4dabf7;
+    padding: 10px;
+    border-style: none;
+}
+.buttonlogin{
+    padding: 10px;
+    border-style: none;
 }
 .headerdeatails{
     
 }
 .heading{
+    margin-left: 280px;
+    font-weight: bolder;
+    font-size: larger;
 
 }
 .headerminideatails{
@@ -30,13 +44,17 @@ nav{
     
 }
 .headerbutton{
-    display: inline inline-flex;
+    display: inline-flex;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    border-style: none;
+    border-radius: 50px;
+    
 }
 
 .mostpopularhotels{
     
     margin: 30px 50px;
-
 }
 .headingmostpopularhotel{
     margin: 10px 20px;
@@ -66,6 +84,11 @@ nav{
     background-position: center;
     height: 310px;
 }
+.headingfacilities{
+    margin-left: 300px;
+    font-size:xx-large;
+    margin-top: 20px;
+}
 
 .ourfacilities1{
     display: flex;
@@ -84,8 +107,11 @@ nav{
     height: 300px;
 }
 
-.Rooms{
-
+.headingrooms{
+    margin-left: 300px;
+    font-size:xx-large;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .roomsdetails{
@@ -110,6 +136,14 @@ nav{
     margin: 10px 100px 30px 130px;
 }
 
+.headingmenu{
+    margin-left: 300px;
+    font-size:xx-large;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
 .menudetails{
    margin-left: 380px;
 }
@@ -121,11 +155,13 @@ nav{
 .menuA{
     display: flex;
     gap: 30px;
+    margin-left:100px ;
 }
 .menuB{
     display: flex;
     margin-top: 40px;
     gap: 30px;
+    margin-left:100px ;
 }
 .menuimages{
     width: 350px;
@@ -173,6 +209,10 @@ nav{
     height: 25%;
     justify-content: space-around;
 }
+.previousnext{
+    height: 40px;
+    width: 80px;
+}
 
 .review{
     border-style:none;
@@ -182,6 +222,12 @@ nav{
     padding: 10px;
     border-radius: 10px;
     
+}
+.headingwhyus{
+    margin-left: 300px;
+    font-size:xx-large;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .whyusreasons{
     height: 75%;
