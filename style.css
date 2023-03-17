@@ -6,6 +6,8 @@ body{
 header{
     background-image: url(header.jpg);
     background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 
 .navigation{
@@ -14,6 +16,7 @@ header{
 }
 nav{
     display: flex;
+    gap: 40px;
 }
 .headerdeatails{
     
@@ -26,8 +29,182 @@ nav{
     flex-direction: row;
     
 }
+.headerbutton{
+    display: inline inline-flex;
+}
+
+.mostpopularhotels{
+    
+    margin: 30px 50px;
+
+}
+.headingmostpopularhotel{
+    margin: 10px 20px;
+}
+.popularhotels{
+    display: flex;
+    gap: 40px;
+}
+
+.popularhotels1{
+    width: 29%;
+    background-image: url(mostpopularhome1.jpg);
+    background-position: center;
+    height: 310px;
 
 
+}
+.popularhotels2{
+    background-image: url(most\ popularhome2.jpg);
+    width: 29%;
+    background-position: center;
+    height: 310px;
+}
+.popularhotels3{
+    background-image: url(mostpopularhome3.jpg);
+    width: 29%;
+    background-position: center;
+    height: 310px;
+}
+
+.ourfacilities1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+
+}
+
+.ourfacilities2{
+    display: flex;
+    flex-direction: row;
+}
+
+.facilityIcons{
+    width: 300px;
+    height: 300px;
+}
+
+.Rooms{
+
+}
+
+.roomsdetails{
+    margin: 10px  200px;
+}
+.roomimages{
+    width: 300px;
+    height: 250px;
+    
+}
+
+.roomimagesA{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 10px 100px 30px 130px;
+}
+.roomimagesB{
+    display: flex;
+    flex-direction: row; 
+    gap: 40px;
+    margin: 10px 100px 30px 130px;
+}
+
+.menudetails{
+   margin-left: 380px;
+}
+.menuspecifics{
+    margin-left: 420px;
+    display: flex;
+    gap: 30px;
+}
+.menuA{
+    display: flex;
+    gap: 30px;
+}
+.menuB{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+}
+.menuimages{
+    width: 350px;
+    height: 300px;
+    
+}
+
+.headingclients{
+    margin-top: 20px;
+   margin-left: 130px;
+}
+.clients{
+    display: flex;
+    gap:20px;
+    margin: 10px 100px;
+}
+
+.clientwords{
+    background-color:#f8f9fa;
+}
+.clientsimage{
+    width: 100px;
+    border-radius: 90%;
+}
+.previousnext{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 300px;
+}
+
+.whyus{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+}
+
+.whyusdetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.clientsreviewshotels{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    justify-content: space-around;
+}
+
+.review{
+    border-style:none;
+    width: 120px;
+    height: 70px;
+    background-color: #228be6;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.whyusreasons{
+    height: 75%;
+
+}
+.reason{
+  display: flex;
+  flex-direction: row;
+}
+.reasonicons{
+    width: 70px; 
+    border-radius: 100%;  
+
+}
+
+
+.Newsletter{
+    background-color: #4dabf7;
+    height: 230px;
+    padding-top: 70px;
+    padding-left: 300px;
+    border-radius: 100px 100px 0px 0px;
+}
 
 footer{
     display: flex;
@@ -35,5 +212,10 @@ footer{
 
 }
 .footerb{
-    
+     display: flex; 
+     flex-direction: row;
+     justify-content: space-around;
+     gap: 40px;
+     
 }
+
