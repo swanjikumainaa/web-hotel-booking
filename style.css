@@ -1,3 +1,4 @@
+
 body{
     margin: 0%;
     padding: 0%;
@@ -264,4 +265,217 @@ footer{
      gap: 40px;
      
 }
+
+ 
+@media (max-width: 400px) {
+    header {
+      background-size: contain;
+    }
+    
+    .navigation {
+      flex-wrap: wrap;
+    }
+    
+    nav {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .buttonsignup {
+      font-size: 14px;
+      padding: 8px;
+    }
+    
+    .buttonlogin {
+      font-size: 14px;
+      padding: 8px;
+    }
+    
+    .headerdeatails {
+      display: none;
+    }
+    
+    .heading {
+      margin-left: 20px;
+    }
+    
+    .headerminideatails {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .headerbutton {
+      margin: 20px auto;
+    }
+    
+    .mostpopularhotels {
+      margin: 20px;
+    }
+    
+    .popularhotels {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+    .popularhotels1, .popularhotels2, .popularhotels3 {
+      width: 100%;
+      height: 200px;
+    }
+    
+    .headingfacilities {
+      margin-left: 20px;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    
+    .ourfacilities1, .ourfacilities2 {
+      flex-direction: column;
+    }
+    
+    .facilityIcons {
+      width: 100%;
+      height: auto;
+    }
+    
+    .headingrooms {
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    
+    .roomsdetails {
+      margin: 20px;
+    }
+    
+    .roomimages {
+      width: 100%;
+      height: auto;
+    }
+    
+    .roomimagesA, .roomimagesB {
+      flex-direction: column;
+    }
+    
+    .headingmenu {
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    
+    .menudetails {
+      margin-left: 20px;
+    }
+    
+    .menuspecifics {
+      flex-wrap: wrap;
+    }
+    
+    .menuA, .menuB {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    
+    .menuimages {
+      width: 100%;
+      height: auto;
+    }
+    
+    .headingclients {
+      margin-left: 20px;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+    
+    .clients {
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin: 20px;
+    }
+    
+    .clientwords {
+      width: 100%;
+    }
+    
+    .clientsimage {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .previousnext {
+      margin: 20px auto;
+    }
+    
+    .whyus {
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    
+        .whyusdetails {
+          flex-direction: column;
+        }
+      
+        .clientsreviewshotels {
+          flex-direction: column;
+          height: auto;
+          justify-content: center;
+        }
+      
+        .previousnext {
+          height: 30px;
+          width: 60px;
+        }
+      
+        .review {
+          width: 90px;
+          height: 50px;
+          font-size: small;
+          padding: 5px;
+          border-radius: 8px;
+        }
+      
+        .headingwhyus {
+          margin-left: 20px;
+          font-size: large;
+          margin-top: 30px;
+          margin-bottom: 20px;
+        }
+      
+        .whyusreasons {
+          height: auto;
+        }
+      
+        .reason {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+      
+        .reasonicons {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-bottom: 10px;
+        }
+      
+        .Newsletter {
+          padding-top: 50px;
+          padding-left: 20px;
+          height: 200px;
+        }
+      
+        .footerb {
+          flex-direction: column;
+          justify-content: center;
+          gap: 20px;
+        }
+      
+      }
+      
 
