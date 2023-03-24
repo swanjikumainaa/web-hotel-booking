@@ -10,6 +10,7 @@ header{
     background-position: center;
     background-size: cover;
     width: 100%;
+  
 }
 
 .navigation{
@@ -264,6 +265,11 @@ footer{
      justify-content: space-around;
      gap: 40px;
      
+}
+
+.aboutbody{
+   display: flex;
+   flex-direction: row;
 }
 
  
