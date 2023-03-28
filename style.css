@@ -297,217 +297,188 @@ footer{
 
 
 
+@media only screen and (max-width: 400px) {
 
  
-@media (max-width: 400px) {
-    header {
-      background-size: contain;
-    }
-    
-    .navigation {
-      flex-wrap: wrap;
-    }
-    
-    nav {
-      display: block;
-      text-align: center;
-      margin-top: 20px;
-    }
-    
-    .buttonsignup {
-      font-size: 14px;
-      padding: 8px;
-    }
-    
-    .buttonlogin {
-      font-size: 14px;
-      padding: 8px;
-    }
-    
-    .headerdeatails {
-      display: none;
-    }
-    
-    .heading {
-      margin-left: 20px;
-    }
-    
-    .headerminideatails {
-      flex-direction: column;
-      margin-left: 20px;
-      margin-bottom: 10px;
-    }
-    
-    .headerbutton {
-      margin: 20px auto;
-    }
-    
-    .mostpopularhotels {
-      margin: 20px;
-    }
-    
-    .popularhotels {
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    
-    .popularhotels1, .popularhotels2, .popularhotels3 {
-      width: 100%;
-      height: 200px;
-    }
-    
-    .headingfacilities {
-      margin-left: 20px;
-      margin-top: 10px;
-      font-size: 20px;
-    }
-    
-    .ourfacilities1, .ourfacilities2 {
-      flex-direction: column;
-    }
-    
-    .facilityIcons {
-      width: 100%;
-      height: auto;
-    }
-    
-    .headingrooms {
-      margin-left: 20px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      font-size: 20px;
-    }
-    
-    .roomsdetails {
-      margin: 20px;
-    }
-    
-    .roomimages {
-      width: 100%;
-      height: auto;
-    }
-    
-    .roomimagesA, .roomimagesB {
-      flex-direction: column;
-    }
-    
-    .headingmenu {
-      margin-left: 20px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      font-size: 20px;
-    }
-    
-    .menudetails {
-      margin-left: 20px;
-    }
-    
-    .menuspecifics {
-      flex-wrap: wrap;
-    }
-    
-    .menuA, .menuB {
-      flex-direction: column;
-      margin-bottom: 20px;
-    }
-    
-    .menuimages {
-      width: 100%;
-      height: auto;
-    }
-    
-    .headingclients {
-      margin-left: 20px;
-      margin-top: 20px;
-      font-size: 20px;
-    }
-    
-    .clients {
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-      margin: 20px;
-    }
-    
-    .clientwords {
-      width: 100%;
-    }
-    
-    .clientsimage {
-      width: 50px;
-      height: 50px;
-    }
-    
-    .previousnext {
-      margin: 20px auto;
-    }
-    
-    .whyus {
-      flex-wrap: wrap;
-      margin: 20px;
-    }
-    
-        .whyusdetails {
-          flex-direction: column;
-        }
-      
-        .clientsreviewshotels {
-          flex-direction: column;
-          height: auto;
-          justify-content: center;
-        }
-      
-        .previousnext {
-          height: 30px;
-          width: 60px;
-        }
-      
-        .review {
-          width: 90px;
-          height: 50px;
-          font-size: small;
-          padding: 5px;
-          border-radius: 8px;
-        }
-      
-        .headingwhyus {
-          margin-left: 20px;
-          font-size: large;
-          margin-top: 30px;
-          margin-bottom: 20px;
-        }
-      
-        .whyusreasons {
-          height: auto;
-        }
-      
-        .reason {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 20px;
-        }
-      
-        .reasonicons {
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-          margin-bottom: 10px;
-        }
-      
-        .Newsletter {
-          padding-top: 50px;
-          padding-left: 20px;
-          height: 200px;
-        }
-      
-        .footerb {
-          flex-direction: column;
-          justify-content: center;
-          gap: 20px;
-        }
-      
-      }
-      
+  header {
+    background-size: contain;
+    height: 200px;
+  }
+ 
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav {
+    gap: 20px;
+    font-size: small;
+  }
+  
+  .buttonsignup {
+    padding: 5px;
+  }
+  
+  .buttonlogin {
+    padding: 5px;
+  }
+  
 
+  .mostpopularhotels {
+    margin: 20px;
+  }
+  
+  .popularhotels {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .popularhotels1,
+  .popularhotels2,
+  .popularhotels3 {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+  }
+  
+  .headingmostpopularhotel {
+    margin: 10px;
+    font-size: small;
+  }
+  
+
+  .headingfacilities {
+    margin-left: 20px;
+    font-size: small;
+    margin-top: 20px;
+  }
+  
+  .ourfacilities1,
+  .ourfacilities2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .facilityIcons {
+    width: 150px;
+    height: 150px;
+  }
+  
+  
+  .headingrooms {
+    margin-left: 20px;
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .roomsdetails {
+    margin: 10px 20px;
+  }
+  
+  .roomimages {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .roomimagesA,
+  .roomimagesB {
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+  }
+  
+  /* adjust menu styles */
+  .headingmenu {
+    margin-left: 20px;
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .menudetails {
+    margin-left: 20px;
+  }
+  
+  .menuspecifics {
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menuA,
+  .menuB {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menuimages {
+    width: 100%;
+    height: 150px;
+  }
+  
+  
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .clientsimage {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .previousnext {
+    margin-left: 20px;
+  }
+  
+  
+  .whyus {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .whyusdetails {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .headingwhyus {
+    margin-left: 0;
+    text-align: center;
+    font-size: large;
+}
+
+.whyusreasons {
+    height: auto;
+}
+
+.Newsletter {
+    height: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 0;
+}
+
+.footerb {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutbody,
+.vision,
+.approach {
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+}
+
+.aboutImage {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+}
