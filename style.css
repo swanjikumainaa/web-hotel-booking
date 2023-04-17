@@ -295,6 +295,30 @@ footer{
     border-radius: 0px 80px 0px 80px;
 }
 
+.contactusdetails{
+ margin: 50px 120px;
+}
+.contactusheading{
+  margin-left:80px;
+}
+.contactusheading2{
+  margin-left: 85px;
+}
+
+.contactusform{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+    
+}
+  .formrow2{
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+.formrow1{
+  margin-left: 70px;
+}
+
 
 
 @media only screen and (max-width: 400px) {
